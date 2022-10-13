@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cpuObject.cpp" />
     <ClCompile Include="SimpleCPU.cpp" />
+    <ClCompile Include="simulator\cpuObject.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cpuObject.h" />
+    <ClInclude Include="simulator\cpuObject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

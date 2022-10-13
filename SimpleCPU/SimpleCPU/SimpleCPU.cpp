@@ -1,6 +1,6 @@
 #include <iostream>;
 #define FETCH_NAME(var)  #var
-#include "cpuObject.h";
+#include "simulator/cpuObject.h";
 
 
 int main()

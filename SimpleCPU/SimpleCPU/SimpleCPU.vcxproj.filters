@@ -24,13 +24,13 @@
     <ClCompile Include="SimpleCPU.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cpuObject.cpp">
-      <Filter>Source Files\Simulator</Filter>
+    <ClCompile Include="simulator\cpuObject.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cpuObject.h">
-      <Filter>Source Files\Simulator</Filter>
+    <ClInclude Include="simulator\cpuObject.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
