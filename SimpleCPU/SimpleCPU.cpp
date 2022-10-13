@@ -18,6 +18,7 @@ int main()
         std::cin >> std::hex >> n;
         cpu.FillRegisters(i, n);
     }
+    // ssdasd
     std::cout << "\n";
     cpu.ViewRegisters();
 
