@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cpuObjectcpp.cpp" />
     <ClCompile Include="SimpleCPU.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cpuObject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
