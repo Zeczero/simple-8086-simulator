@@ -16,12 +16,15 @@
     <Filter Include="Source Files\Simulator">
       <UniqueIdentifier>{7213bdaf-ce03-4935-9fee-5caa198809f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Simulator">
+      <UniqueIdentifier>{6f45b437-b836-44c3-902d-32785b042784}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SimpleCPU.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cpuObjectcpp.cpp">
+    <ClCompile Include="cpuObject.cpp">
       <Filter>Source Files\Simulator</Filter>
     </ClCompile>
   </ItemGroup>

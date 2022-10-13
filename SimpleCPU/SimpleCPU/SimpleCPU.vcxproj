@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cpuObjectcpp.cpp" />
+    <ClCompile Include="cpuObject.cpp" />
     <ClCompile Include="SimpleCPU.cpp" />
   </ItemGroup>
   <ItemGroup>
