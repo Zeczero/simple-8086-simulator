@@ -1,5 +1,0 @@
-﻿  SimpleCPU.cpp
-C:\Users\admin\Desktop\Projects\simple-8086-simulator\SimpleCPU\SimpleCPU.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\admin\Desktop\Projects\simple-8086-simulator\SimpleCPU\SimpleCPU.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\admin\Desktop\Projects\simple-8086-simulator\SimpleCPU\SimpleCPU.cpp(15,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  SimpleCPU.vcxproj -> C:\Users\admin\Desktop\Projects\simple-8086-simulator\x64\Debug\SimpleCPU.exe
