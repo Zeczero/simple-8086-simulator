@@ -23,7 +23,7 @@ void CpuObject::FillRegisters(int registerNum, int value) {
 			break;
 		case 5:
 			CH = value;
-			break;
+			break;	`
 		case 6:
 			DL = value;
 			break;

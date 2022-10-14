@@ -21,7 +21,7 @@ int main()
 
     std::vector<int> registers = cpu.GetRegisters();
 
-    while (!cpu.stop) {
+    while (!cpu.STOP) {
         int sel;
         std::cout << "Wybierz Komende: \n";
         std::cout << "0. MOV {TO} {FROM}" << std::endl;

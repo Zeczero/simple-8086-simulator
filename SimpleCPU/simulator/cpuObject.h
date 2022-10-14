@@ -10,7 +10,7 @@ public:
 	virtual void UpdateRegisters();
 	virtual void GetCommand(int cmd);
 	const char* NAMES[8] = { "AL", "AH", "BL", "BH", "CL", "CH", "DL", "DH" };
-	bool stop = false;
+	bool STOP = false;
 	virtual std::vector<int> GetRegisters();
 
 private: 
