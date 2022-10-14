@@ -23,7 +23,7 @@ void CpuObject::FillRegisters(int registerNum, int value) {
 			break;
 		case 5:
 			CH = value;
-			break;	`
+			break;	
 		case 6:
 			DL = value;
 			break;
@@ -49,10 +49,15 @@ void CpuObject::UpdateRegisters() {
 
 void CpuObject::ViewRegisters() {
 	for (int i = 0; i != REGISTER_SIZE; i++) {
-		std::cout << "Zawartosc rejestru " << NAMES[i]  << " : " << std::hex << ALL_REGISTERS[i] << std::endl;
+		std::cout << "ZAWARTOSC REJESTRU: " << NAMES[i] << ": 0x" << std::hex << ALL_REGISTERS[i] << " ADRES PAMIECI: " << REGISTER_ADDRESSES[i] << std::endl;
 	}
 }
 
+void CpuObject::DeployPointers() {
+	for (size_t i = 0; i < REGISTER_SIZE; i++) {
+		REGISTER_ADDRESSES[i] = &ALL_REGISTERS[i];
+	}
+}
 
 void CpuObject::Mov(int to,  int from) {
 	ALL_REGISTERS[to] = ALL_REGISTERS[from];
@@ -63,7 +68,7 @@ void CpuObject::GetCommand(int cmd) {
 	case MOV:
 		int reg, reg2;
 		for (int i = 0; i < REGISTER_SIZE; i++) {
-			std::cout << i << NAMES[i] << std::endl;
+			std::cout << i << ". " << NAMES[i] << std::endl;
 		}
 		std::cout << "Wybierz rejestr koncowy: ";
 		std::cin >> reg;
@@ -71,8 +76,8 @@ void CpuObject::GetCommand(int cmd) {
 		std::cin >> reg2;
 		Mov(reg, reg2);
 		break;
-	case STOP: 
-		stop = true;
+	case EXIT: 
+		STOP = true;
 			break;
 	}
 }

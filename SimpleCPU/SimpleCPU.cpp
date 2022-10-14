@@ -8,7 +8,7 @@ int main()
     std::cout << "\t============= Written by soczix ===================" << std::endl;
     std::cout << "\t====================  2022   =======================" << std::endl;
     std::cout << std::endl;
-    for (size_t i = 0; i <= 7; i++) {
+    for (size_t i = 0; i < CpuObject::REGISTER_SIZE; i++) {
         int n;
         std::cout << "Prosze wpisac wartosc dla rejestru " << cpu.NAMES[i] << ": ";
         std::cin >> std::hex >> n;
@@ -17,6 +17,7 @@ int main()
 
     std::cout << "\n";
     cpu.UpdateRegisters();
+    cpu.DeployPointers();
     cpu.ViewRegisters();
 
     std::vector<int> registers = cpu.GetRegisters();
