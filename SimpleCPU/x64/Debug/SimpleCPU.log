@@ -1,0 +1,5 @@
+﻿  SimpleCPU.cpp
+C:\Users\admin\Desktop\Projects\simple-8086-simulator\SimpleCPU\SimpleCPU.cpp(1,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\admin\Desktop\Projects\simple-8086-simulator\SimpleCPU\SimpleCPU.cpp(2,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\admin\Desktop\Projects\simple-8086-simulator\SimpleCPU\SimpleCPU.cpp(14,31): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  SimpleCPU.vcxproj -> C:\Users\admin\Desktop\Projects\simple-8086-simulator\x64\Debug\SimpleCPU.exe
